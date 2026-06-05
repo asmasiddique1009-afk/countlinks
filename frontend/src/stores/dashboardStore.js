@@ -81,7 +81,7 @@ export const useDashboardStore = create((set) => ({
       isOpen: false,
     },
   ],
-  // API Call function
+
  fetchOrderStats: async () => {
     try {
       const res = await api.get('/api/dashboard/stats');
